@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"busqueda de 3 productos en barra de busquedas de tierragro","Buscar alimento para gatos en barra de busqueda de tierragro","FAILURE","2022-08-16T11:00:56.881-05:00[America/Bogota]","0.0","18.35"
+"Entrar en pagina  tierragro","Buscar alimento para perros en barra de busqueda de tierragro","FAILURE","2022-08-16T11:01:31.544-05:00[America/Bogota]","0.0","38.25"

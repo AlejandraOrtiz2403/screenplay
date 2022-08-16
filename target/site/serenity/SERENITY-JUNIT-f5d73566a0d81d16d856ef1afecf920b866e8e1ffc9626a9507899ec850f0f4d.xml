@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Entrar en pagina  tierragro" skipped="0" tests="1" time="38.25" timestamp="2022-08-16 11:01:31"><testcase name="Buscar alimento para perros en barra de busqueda de tierragro"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']&#13;
+com.tierragro.tasks.ClickRandomTask.performAs(ClickRandomTask.java:20)&#13;
+com.tierragro.stepDefinitions.ClickRandomStepDefinitions.quieroEntrarEnLaTiendaYComprarProducto(ClickRandomStepDefinitions.java:19)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

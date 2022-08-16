@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Entrar en pagina  tierragro" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-16T16:01:31" hostname="MAGICHOME" time="39.514">
+  <properties/>
+  <testcase name="Buscar alimento para perros en barra de busqueda de tierragro" classname="Entrar en pagina  tierragro" time="39.514">
+    <failure message="java.lang.AssertionError: &#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: an element that is visible
+     but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:194)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:167)
+	at com.tierragro.tasks.ClickRandomTask.performAs(ClickRandomTask.java:20)
+	at com.tierragro.tasks.ClickRandomTask$$EnhancerByCGLIB$$87370f9c.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.tierragro.tasks.ClickRandomTask$$EnhancerByCGLIB$$87370f9c$$FastClassByCGLIB$$f8024f41.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.tierragro.tasks.ClickRandomTask$$EnhancerByCGLIB$$87370f9c.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at com.tierragro.stepDefinitions.ClickRandomStepDefinitions.quieroEntrarEnLaTiendaYComprarProducto(ClickRandomStepDefinitions.java:19)
+	at ✽.quiero entrar en la tienda y comprar producto(src/test/resources/com.tierragro.feature/ClickRandom.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 39406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660665692.859][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 16, 2022 11:01:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Buscar alimento para perros en barra de busqueda de tierragro
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP click random task
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element that is visible but: no matching element found by xpath: //i[@class='far fa-times close triggerClose']
+]]></system-err>
+</testsuite>
